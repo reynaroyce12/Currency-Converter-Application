@@ -13,4 +13,6 @@ Add a ```.env``` file in the root directory for storing the api credentials.
 <br>
 To unable the debug mode use ```$env:FLASK_ENV = "development"```
 
+See deployment : https://convert-your-currency.herokuapp.com/
+
 
