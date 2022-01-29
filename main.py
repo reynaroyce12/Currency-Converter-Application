@@ -8,7 +8,7 @@ load_dotenv()
 app = Flask(__name__)
 
 parameters = {
-    'access_key': 'e2547a7ff36d5eec4d5ff39c0a79ceff'
+    'access_key': os.getenv('API_KEY')
 }
 
 response = requests.get(url='http://api.exchangeratesapi.io/v1/latest', params=parameters)
